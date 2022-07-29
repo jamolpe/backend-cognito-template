@@ -1,0 +1,19 @@
+# mongo database up in case is needed
+version: "3.8"
+services:
+  backend-cognito-template:
+    build: .
+    environment:
+      - PORT=3001
+    ports:
+      - "3001:3001"
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    volumes:
+      - ./.localdatabase/mongo:/data/db
+    ports:
+      - 27017:27017
+    restart: unless-stopped

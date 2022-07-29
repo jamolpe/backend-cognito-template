@@ -1,0 +1,5 @@
+export const INTERNAL_SERVER_ERROR = 'INTERNAL_SERVER_ERROR';
+export const UNAUTHORIZED = 'UNAUTHORIZED';
+export const FORBIDDEN = 'FORBIDDEN';
+export const MONGODB_URI = process.env.MONGODB_URI;
+export const NOT_IMPLEMENTED = 'NOT_IMPLEMENTED';

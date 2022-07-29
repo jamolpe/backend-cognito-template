@@ -1,0 +1,17 @@
+{
+  "header": "Changelog",
+  "types": [
+    { "type": "feat", "section": "Features" },
+    { "type": "fix", "section": "Bug Fixes" },
+    { "type": "chore", "hidden": true },
+    { "type": "docs", "section": "Docs" },
+    { "type": "style", "hidden": true },
+    { "type": "refactor", "hidden": "Refactor" },
+    { "type": "perf", "hidden": true },
+    { "type": "test", "hidden": true }
+  ],
+  "commitUrlFormat": "https://github.com/jamolpe/backend-cognito-template/commit/{{hash}}",
+  "compareUrlFormat": "https://github.com/jamolpe/backend-cognito-template/compare/{{previousTag}}...{{currentTag}}",
+  "issuePrefixes": ["#"],
+  "issueUrlFormat": "https://github.com/jamolpe/backend-cognito-template/issues/{{id}}"
+}
