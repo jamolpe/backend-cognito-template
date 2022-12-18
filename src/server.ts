@@ -70,6 +70,7 @@ export class Server {
     const router = Router();
     this.definePrivateRoutes(router);
     this.definePublicRoutes(router);
+    this.app.use('/api', router);
   }
 
   private definePrivateRoutes(router: Router): void {
