@@ -14,7 +14,7 @@ Template to work with cognito auth users
 
 ## Usage
 
-In order to have this proyect running you need a .env file (or environemnt variables in current instance) with cognito configuration. Local env can run with a "static" user auth that does not consume cognito
+In order to have this project running you need a .env file (or environment variables in current instance) with cognito configuration. Local env can run with a "static" user auth that does not consume cognito
 
 ## Folders
 
@@ -29,6 +29,6 @@ In order to have this proyect running you need a .env file (or environemnt varia
 - server.ts -> entry point
 ## To contribute
 
-This proyect uses commitlint and husky to mantain best practices in commits, we use the [conventional commits specification](https://www.conventionalcommits.org/en/v1.0.0/)
+This project uses commitlint and husky to maintain best practices in commits, we use the [conventional commits specification](https://www.conventionalcommits.org/en/v1.0.0/)
 
-eslint is configured to mantain best practices in code and prettier to have the same structure
+eslint is configured to maintain best practices in code and prettier to have the same structure
